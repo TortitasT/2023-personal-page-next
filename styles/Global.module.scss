@@ -1,0 +1,28 @@
+body{
+  background-color: var(--color-bg-primary);
+  color: var(--color-fg-primary);
+
+  max-width: 1000px;
+  margin: auto;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  >main{
+    flex: 1;
+
+    padding: 1em;
+
+    box-sizing: border-box;
+  }
+}
+
+ul{
+  padding-left: 0;
+
+  >li{
+    list-style: none;
+  }
+}
